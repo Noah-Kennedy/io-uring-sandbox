@@ -1,0 +1,9 @@
+[package]
+name = "io-uring-sandbox"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+io-uring = "0.5.2"
+tokio = { version = "1.18.2", features = ["sync"] }
+slab = "0.4.6"
